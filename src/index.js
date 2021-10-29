@@ -133,7 +133,7 @@ function StyledDropzone(props) {
         <ul>{filepath}</ul>
       </aside>
       <aside style={thumbsContainer}>{thumbs}</aside>
-      <button type="submit">submit your file</button>
+      {/* <button type="submit">submit your file</button> */}
     </div>
   );
 }
